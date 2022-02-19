@@ -31,3 +31,45 @@ p {
     font-size: 1.5rem;
   }
 }
+
+.navigation {
+  height: 10rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #362419;
+}
+
+.left-navigation {
+  flex: 1;
+  padding-left: 1rem;
+  text-transform: uppercase;
+  color: coral;
+}
+
+.right-navigation {
+  margin-right: 1.5rem;
+}
+
+.right-navigation ul li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.right-navigation ul li a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: coral;
+  font-weight: bold;
+  margin: 1.2rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .left-navigation {
+    padding: 4rem;
+  }
+
+  .right-navigation {
+    margin-right: 3.5rem;
+  }
+}
